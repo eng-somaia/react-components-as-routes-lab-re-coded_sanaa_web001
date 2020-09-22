@@ -21,4 +21,3 @@ const Directors = () => {
 }
 
 export default Directors
-
