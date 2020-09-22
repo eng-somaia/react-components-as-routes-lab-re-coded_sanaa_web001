@@ -5,17 +5,17 @@ const Directors = () => {
   return (
     <div>
       <h1>Directors Page</h1>
-      directors.map(ele=>{
+      {directors.map(ele=>(
         <div>
-           <h3>`Name: ${ele.name}`</h3>
-           <p>'Movies: '</p>
-           ele.movies.map(item =>{
+           <h3>Name: {ele.name}</h3>
+           <p>Movies: </p>
+           {ele.movies.map(item =>(
              <ul>
-               <li>item</li>
+               <li>{item}</li>
              </ul>
-           })
+           ))}
         </div>
-      })
+      ))}
     </div>
   );
 }
